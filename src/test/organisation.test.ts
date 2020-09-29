@@ -57,7 +57,7 @@ describe("/", () => {
         query: `
       mutation{
         addOrganization(
-        organization: "Agnes corp"
+        organization: "Agnes Inc"
          products: ["beetles"]
          marketValue:"8"
          address: "Maitamz"
