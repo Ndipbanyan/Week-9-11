@@ -109,7 +109,8 @@ describe("/", () => {
             query: `
       mutation{
         deleteOrganization(id:"5f60cdc576fd80bb110af5a3"){
-          country
+          country,
+          id
         }
       }  
       `,
