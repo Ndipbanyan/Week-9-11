@@ -16,7 +16,7 @@ mongoose
       useFindAndModify:false
     }
   )
-  .then(() => console.log("connected too Database"))
+  .then(() => console.log("connected to Database"))
   .catch((error) => 
     console.error("sorry could not connect to MongoDb.", error)
   );
